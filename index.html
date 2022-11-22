@@ -30,18 +30,10 @@
                 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="page-scroll">
-                          <a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#">Home</a>
-                        </li>
-                        <li class="page-scroll">
-                          <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#intro">Short Bio</a>
-                        </li>    
-<!--                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#education">Education</a>
-                        </li>        -->             
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#publications">Publications</a>
-                        </li>
+                        <li class="page-scroll"><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#">Home</a></li>
+                        <li class="page-scroll"><a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#intro">Short Bio</a></li>
+                        <li class="page-scroll"><a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#teaching">Teaching</a></li>              
+                        <li class="page-scroll"><a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#publications">Publications</a></li>
                     </ul>
                 </div>
                 
@@ -55,72 +47,66 @@
                         <img class="propic" id="mobile-img" src="img/mefinal.jpg"  border="0" height="250" alt=""></a>
                 </div>
                 <div align="left" class="col-md-5">
-                    <h2>Guilherme Iecker Ricardo, Ph.D.</h2>
+                    <br>
+                    <h4>Guilherme Iecker Ricardo, Ph.D.</h4>
                     
-                    <h4>Postdoctoral Researcher<br>
-                        Orange, Châtillon, France<br>
-                        guilhermeiecker.ricardo [at] orange.com<br>
-                    </h4>
+                    <h5><b>Postdoctoral Researcher</b><br>
+                        Orange Innovation, Châtillon, France<br>
+                        guilhermeiecker.ricardo [at] orange [dot] com<br>
+                    </h5>
+
+                    <h5><b>Lecturer</b><br>
+                        Université Paris Dauphine - PSL, Paris, France<br>
+                        guilherme.iecker-ricardo [at] dauphine [dot] psl [dot] eu<br>
+                    </h5>
+
+                    <p style="text-align: left;"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">  
+                        <a href="docs/cv-en.pdf" style="text-decoration:none;"><span class="label label-primary">CV-EN</span></a>
+                        <a href="docs/cv-fr.pdf" style="text-decoration:none;"><span class="label label-primary">CV-FR</span></a>
+                        <a href="docs/cv-pt.pdf" style="text-decoration:none;"><span class="label label-primary">CV-PT</span></a> 
+                    </p>
                     <p style="text-align: left;"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">  
                       <a id="contact-link-orcid" class="contact_link" href="https://orcid.org/0000-0002-1750-3777" target="_blank"><i class="ai ai-orcid ai-2x"></i></a>  
-                      <!-- <a id="contact-link-doi" class="contact_link" href=# target="_blank"><i class="ai ai-doi ai-2x"></i></a> -->
-                      <!-- <a id="contact-link-hal" class="contact_link" href=# target="_blank"><i class="ai ai-hal ai-2x"></i></a> -->
-                      <!-- <a id="contact-link-dblp" class="contact_link" href=# target="_blank"><i class="ai ai-dblp ai-2x"></i></a> -->
                       <a id="contact-link-googlescholar" class="contact_link" href="https://scholar.google.com/citations?user=vxiHKWAAAAAJ" target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a>  
-                      <a id="contact-link-researchgate" class="contact_link" href="https://www.researchgate.net/profile/Guilherme-Iecker-Ricardo" target="_blank"><i class="ai ai-researchgate ai-2x"></i></a>  
                       <a id="contact-link-lattes" class="contact_link" href="http://lattes.cnpq.br/7915009501504033" target="_blank"><i class="ai ai-lattes ai-2x"></i></a>  
-                      <a id="contact-link-cv" class="contact_link" href=# target="_blank"><i class="ai ai-cv ai-2x"></i></a>
-                  </p>
-                    
+                    </p>
                 </div>
             </div>
         </section>
         
+
         <section name="intro" id="intro">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
                         <hr class="star-primary">
-                        <h2>About me</h2>
+                        <h2>Short Bio</h2>
                         <p class="lead" style="text-align: justify;">
                           I received a B.Eng. degree in Computer Engineering, in 2016, and an M.Sc. degree in Computer Science, in 2018, both from Universidade Federal do Rio de Janeiro (Brazil). 
-                          In 2021, I received a Ph.D. degree in Computer Science from Université Côte d'Azur (France), having EURECOM and Inria - Sophia Antipolis as my hosting research  institutions.
-                          As of January 2022, I joined Orange Group as a postdoctoral researcher and am currently part of the Mathematical Models for Optimization and peRformance Evaluation (MORE) 
-                          research department at Orange Innovation (France), where I work on resource allocation problems for future networks.
-                          My research interests are in the modeling and optimization of networked systems.
+                          In 2021, I received a Ph.D. degree in Computer Science from Université Côte d'Azur (France), having EURECOM and Inria - Sophia Antipolis as hosting research  institutions.
+                          As of January 2022, I am with the MORE research department at Orange Innovation as a postdoctoral researcher, where I work on resource allocation problems for future networks.
+                          In November 2022, I joined Université Paris Dauphine as a lecturer in charge of the Computer Networking course for both undergraduate and master levels.
+                        </p>
+                        <p class="lead" style="text-align: justify;">
+                            My research interests are in the modeling and optimization of networked systems. 
+                            I have investigated problems in Edge Computing networks, ranging from Edge Caching, to Federated Learning, to resource allocation for latency-sensitive applications.
+                            My approaches include static optimization (deterministic and stochastic) and dynamic approaches (e.g., policies and Reinforcement Learning).
                         </p>
                 </div>
             </div>
         </section>
 
-<!--         <section  name="education" id="education">
+        <section  name="teaching" id="teaching">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
-                        <hr class="star-primary">
-                        
-                        <h2>Education</h2>
-                        <div class="degree">
-                            <h3>Ph.D. Degree - Computer Science, 2021</h3>
-                            <p> Université Côte d'Azur</p>
-                            <p> EURECOM, Communications Systems Department</p>
-                            <p> Inria - Sophia Antipolis, NEO Team</p>
-                        </div>
-
-                        <div class="degree">
-                            <h3>M.Sc. Degree - Computer Science, 2018</h3>
-                            <p>Universidade Federal do Rio de Janeiro, Coppe</p>
-                            <p>Systems Engineering and Computer Science Department</p>
-                            <p>LAND Laboratory</p>
-                        </div>
-
-                        <div class="degree">
-                            <h3>B.Eng. Degree - Computer Engineering, 2016</h3>
-                            <p>Universidade Federal do Rio de Janeiro</p>
-                            <p>Systems Engineering and Computer Science Department</p>
-                            <p>LAND Lab</p>
-                        </div>
+                    <hr class="star-primary">
+                    <h2>Teaching</h2>
+                    <ul>
+                        <li><a href="teaching/M1Networks.html">Computer Networking and Security</a>, February-June, 2023. <a href="https://dauphine.psl.eu/formations/masters/informatique/m1-methodes-informatiques-appliquees-a-la-gestion-des-entreprises">M1 MIAGE</a>, Université Paris Dauphine - PSL.</li>
+                        <li><a href="teaching/L3Networks.html">Computer Networks</a>, February-June, 2023. <a href="https://dauphine.psl.eu/formations/licences/informatique-des-organisations/l3-methodes-informatiques-appliquees-pour-la-gestion-des-entreprises">L3 MIAGE</a>, Université Paris Dauphine - PSL.</li>
+                    </ul>
                 </div>
             </div>
-        </section> -->
+        </section>
 
 
 
@@ -128,9 +114,9 @@
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
                         <hr class="star-primary">
-                        
                         <h2>Publications</h2>
-                    <div class="publication">
+                        <h4>Latest update: 22/11/2022</h4>
+                        <div class="publication">
                             <p style="text-align: justify;">
                                 <a href="papers/tdp.pdf" style="text-decoration:none;"><span class="label label-primary">Preprint</span></a> 
                                 G. I. Ricardo, A. Benhamiche, N. Perrot, and Y. Carlinet, <span class="paper-title">"Heuristic Distribution of Latency-Sensitive Tasks in
